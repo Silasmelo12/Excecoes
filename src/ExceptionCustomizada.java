@@ -4,7 +4,7 @@ import java.io.*;
 public class ExceptionCustomizada {
 
     public void imprimir() {
-        String nomeArquivo = "Musicas.txt";
+        String nomeArquivo = JOptionPane.showInputDialog("Informe o nome do arquivo com a extensão");
 
         try {
             BufferedReader br = lerArquivo(nomeArquivo);
