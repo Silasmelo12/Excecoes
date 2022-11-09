@@ -27,9 +27,8 @@ public class ExceptionCustomizada {
 
     private BufferedReader lerArquivo(String nomeArquivo) throws ImpossivelAberturaDeArquivoException {
         File file = new File(nomeArquivo);
-
         try {
-            return new BufferedReader(new FileReader(file.getName()));
+            return new BufferedReader(new FileReader(nomeArquivo));
         } catch (FileNotFoundException e) {
             throw new ImpossivelAberturaDeArquivoException(file.getName(), file.getPath());
         }
