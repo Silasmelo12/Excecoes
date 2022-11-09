@@ -22,7 +22,6 @@ public class ExceptionCustomizada {
         } catch (IOException exception) {
             JOptionPane.showMessageDialog(null,"Erro inesperado. Entre em contato com o suporte.");
         }
-
     }
 
     private BufferedReader lerArquivo(String nomeArquivo) throws ImpossivelAberturaDeArquivoException {

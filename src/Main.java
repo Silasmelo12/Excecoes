@@ -16,7 +16,10 @@ public class Main {
 //        } catch (IOException e){
 //            JOptionPane.showMessageDialog(null,"Erro inesperado. Entre em contato com o suporte.");
 //        }
-        ExceptionCustomizada exceptionCustomizada = new ExceptionCustomizada();
-        exceptionCustomizada.imprimir();
+//        ExceptionCustomizada exceptionCustomizada = new ExceptionCustomizada();
+//        exceptionCustomizada.imprimir();
+        ExceptionCustomizada2 exceptionCustomizada2 = new ExceptionCustomizada2();
+        exceptionCustomizada2.divisaoExceptions();
+
     }
 }
